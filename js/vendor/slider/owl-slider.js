@@ -4,7 +4,7 @@ $(document).on('ready', function() {
 	  var owl = $("#owl-brands");
 	 
 	  owl.owlCarousel({
-		  //autoPlay: 4000,
+		  autoPlay: 4000,
 		  items : 4, //10 items above 1000px browser width
 		  itemsDesktop : [1920,4], //5 items between 1000px and 901px
 		  itemsDesktopSmall : [900,3], // betweem 900px and 601px
@@ -34,7 +34,7 @@ $(document).on('ready', function() {
 	  var owl = $("#owl-demo1,#owl-demo3");
 	 
 	  owl.owlCarousel({
-		  // autoPlay: 4000,
+		  autoPlay: 4000,
 		  items : 1, //10 items above 1000px browser width
 		  itemsDesktop : [1920,1], //5 items between 1000px and 901px
 		  itemsDesktopSmall : [900,1], // betweem 900px and 601px
